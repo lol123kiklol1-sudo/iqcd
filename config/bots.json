@@ -1,0 +1,41 @@
+{
+  "_ملاحظة": "هذا الملف يحتوي على كل نسخ البوتات المتاحة للبيع، مقسمة حسب النوع. كل عنصر = بوت واحد فعلي بتوكن خاص فيه. لما تنفذ /add، البوت يدور على أول نسخة (instance) من نفس النوع غير مستخدمة حالياً بأي اشتراك نشط أو موقوف، ويربطها بالاشتراك. لما ينتهي الاشتراك، النسخة ترجع متاحة تلقائياً لأي زبون جديد.\n\n_ملاحظة2: 'instanceId' لازم يكون فريد لكل عنصر بكل الملف. لا تكرره. لا تشارك هذا الملف مع أي أحد ولا ترفعه على GitHub عام.",
+
+  "bots": [
+    {
+      "type": "GAME",
+      "instanceId": "GAME-4711",
+      "label": "Games#4711",
+      "token": "ضع_توكن_بوت_Games_رقم1_هنا",
+      "clientId": "ضع_client_id_بوت_Games_رقم1"
+    },
+    {
+      "type": "MUSIC_10",
+      "instanceId": "MUSIC10-5675",
+      "label": "Music_10x#5675",
+      "token": "ضع_توكن_بوت_Music10_رقم1_هنا",
+      "clientId": "ضع_client_id_بوت_Music10_رقم1"
+    },
+    {
+      "type": "MUSIC_20",
+      "instanceId": "MUSIC20-5773",
+      "label": "Music_20x#5773",
+      "token": "ضع_توكن_بوت_Music20_رقم1_هنا",
+      "clientId": "ضع_client_id_بوت_Music20_رقم1"
+    },
+    {
+      "type": "TICKET",
+      "instanceId": "TICKET-5430",
+      "label": "Tickets#5430",
+      "token": "ضع_توكن_بوت_Ticket_رقم1_هنا",
+      "clientId": "ضع_client_id_بوت_Ticket_رقم1"
+    },
+    {
+      "type": "GROUP",
+      "instanceId": "GROUP-3379",
+      "label": "Groups#3379",
+      "token": "ضع_توكن_بوت_Group_رقم1_هنا",
+      "clientId": "ضع_client_id_بوت_Group_رقم1"
+    }
+  ]
+}
